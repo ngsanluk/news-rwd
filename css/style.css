@@ -1,0 +1,60 @@
+p {
+  text-align: justify;
+}
+
+a {
+  color: #c63d0f; /* theme color*/
+  text-decoration: none;
+}
+
+.card-title a:hover,
+aside div a:hover {
+  border-bottom: dotted 1px #c63d0f;
+}
+
+.card i {
+  color: #666;
+}
+
+.card-img-top {
+  filter: brightness(0.8);
+}
+
+.card-img-top:hover {
+  filter: brightness(1);
+}
+
+.breaking-news {
+  background-color: rgba(198, 61, 15, 0.3);
+}
+
+.focus-news {
+  border: solid 1px #c63d0f;
+}
+
+.related-news {
+  border-bottom: dotted 1px #ccc;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.news-title span {
+  color: #333;
+  font-weight: bold;
+}
+
+.news-fulltext img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.first-paragraph::first-letter {
+  initial-letter: 4;
+  color: #c63d0f;
+}
+
+/*
+Primary Color: Hex Code and rgba function
+#C63D0F
+rgba(198, 61, 15, 0.7);
+*/
